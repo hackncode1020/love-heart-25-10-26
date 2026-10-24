@@ -3,7 +3,7 @@
 A beating **3D heart made of 3,600 glowing particles**, built with pure **HTML, CSS & JavaScript** (no libraries).
 
 🔴 **Live demo:** https://love-heart-hackncode.sites.tab.bot/
-💌 **Try with a name:** https://love-heart-hackncode.sites.tab.bot/?name=RIYA
+💌 **Try with a name:** https://love-heart-hackncode.sites.tab.bot/?name=DHRUVI
 
 <p align="center"><img src="screenshot.jpg" width="320" alt="Particle Heart screenshot"></p>
 
