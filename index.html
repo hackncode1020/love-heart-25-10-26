@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Particle Heart 💘 Type a name</title>
+<meta name="description" content="A beating heart made of thousands of glowing particles. Tap it for I LOVE YOU, type a name and send it to your person.">
+<meta property="og:title" content="Particle Heart 💘 Type your person's name">
+<meta property="og:description" content="Tap the heart. Type a name. Send it to someone you love ❤️ Made by @hack.n.code">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0a0208">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<header id="top">
+  <h1>Particle Heart</h1>
+  <p id="hint">tap the heart ✨</p>
+</header>
+<button id="snd" aria-label="Heartbeat sound" title="Heartbeat sound">🔇</button>
+<form id="nameForm" autocomplete="off">
+  <input id="name" maxlength="12" placeholder="Enter a name…" aria-label="Enter a name" spellcheck="false">
+  <button id="go" type="submit" aria-label="Put the name in the heart">💘</button>
+</form>
+<button id="share" type="button">Send it to your person ❤️</button>
+<footer id="credit">Made by <b>@hack.n.code</b></footer>
+<div id="toast"></div>
+<script src="heart.js"></script>
+</body>
+</html>
